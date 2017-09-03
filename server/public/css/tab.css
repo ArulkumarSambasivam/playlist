@@ -1,0 +1,19 @@
+@import "compass/css3";
+
+body {
+  margin: 15px;
+}
+
+/* text recolor */
+h1, p, a {
+  color: #4DC9C9 !important;
+}
+
+/* button recolor */
+.nav-pills > li.active > a, .btn-primary {
+  background-color: #6C6C6C !important;
+  // feeling like it's a rounded corners kind of day
+  border-color: #6C6C6C !important;
+  border-radius: 5px; 
+}
+

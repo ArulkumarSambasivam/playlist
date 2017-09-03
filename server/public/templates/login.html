@@ -1,0 +1,19 @@
+  <div class="modal fade ng-scope in" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+					<div class="alert alert-danger" ng-show="loginfailed">
+  <strong>Danger!</strong> Email or password wrong
+</div>
+				  <form class="ng-pristine ng-valid" ng-submit="loginValidation()">
+					<input type="text" ng-model="user" name="user" placeholder="Username">
+					<input type="password" ng-model="pass" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
+			</div>
+</div>
